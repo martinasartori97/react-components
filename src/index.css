@@ -9,6 +9,9 @@
 .container {
   margin: auto;
   width: 90%;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
 
 }
 
@@ -22,19 +25,25 @@ header {
 
 }
 
+
 main {
   background-color: whitesmoke;
+
 }
 
 .card {
   width: 300px;
   padding: 10px;
   height: auto;
+  background-color: white;
+  margin-bottom: 100px;
+
+
 }
 
-.card-img {
-  width: 300px;
-  height: 300px;
+img {
+  width: 100%;
+
 
 }
 
@@ -42,6 +51,12 @@ main {
   font-size: 1.2em;
   margin: 10px 0;
   color: gray;
+}
+
+.card-description {
+  background-color: white;
+  color: black;
+
 }
 
 .btn {
@@ -55,4 +70,6 @@ footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
   text-align: center;
+  background-color: rgba(128, 128, 128, 0.23);
+
 }
